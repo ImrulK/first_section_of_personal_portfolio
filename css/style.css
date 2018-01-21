@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imran.jpg);
+    background-size: cover;
+    
+    
+}
+.menu_bar{
+        background-color: black;
+    min-height: 38px;
+    width: 541px;
+    margin: 0px auto;
+   
+    
+    
+}
+
+.menu_bar ul{
+    list-style:none; 
+    margin:0px; 
+    padding: 0px;
+     
+}
+
+.menu_bar ul li{
+    
+    float:left;
+position: relative;
+    
+    
+}
+
+.menu_bar ul li a
+{font-family:sans-serif;
+   
+    font-size: 14px;
+    font-weight:bold;
+    text-decoration: none;
+text-transform: uppercase;
+display: block;
+padding: 10px 20px ;
+color: white;
+transform: scale(1.1);
+transition: .5s;
+    
+    }
+.menu_bar ul li a:hover{background-color:orange;}
+p{
+        margin: 240px;
+    font-family: serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align-last: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+/*Dropdown Menu*/
+
+.menu_bar ul li ul{ position: absolute;
+background-color: black;}
+.menu_bar ul li ul li{
+        
+    color: white;
+}
+.menu_bar ul li ul li{ display: none;}
+.menu_bar ul li:hover ul li{ display: block;}
+
+.menu_bar ul li ul li a {
+    color: white;
+    text-transform: capitalize;} 
+.menu_bar ul li ul li a:hover{background-color:orange;}
